@@ -38,8 +38,8 @@ public class Calc extends HttpServlet {
 			
 			request.setAttribute("radius", radius_calc);
 			request.setAttribute("height", height_calc);
-			int radius_try = 3;
-			int height_try = 5;
+			int radius_try;
+			int height_try;
 			try {
 				radius_try= Integer.valueOf(radius_calc);
 				height_try= Integer.valueOf(radius_calc);
@@ -47,7 +47,7 @@ public class Calc extends HttpServlet {
 				radius_try=0;
 				height_try=0;
 			}
-			result = 1/3*Math.PI*Math.pow(radius_try, 2)*height_try;
+			result = Math.PI*Math.pow(radius_try, 2)*height_try/3.0;
 			request.setAttribute("result", result);
 		}
 	}
