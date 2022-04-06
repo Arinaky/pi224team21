@@ -7,7 +7,7 @@
 <body>
 	<h1>Калькулятор = объем конуса</h1>
 	<h2><em>Разработано DreamTeam</em></h2>
-	<form action="${pageContext.request.contextPath}/JavaCalc" method="post">
+	<form action="${pageContext.request.contextPath}/Calc" method="post">
 		<label for="radius">Радиус: </label>
 		<br>
 		<input type="text" naame="radius" id="radius" value="${radius}">
