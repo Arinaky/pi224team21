@@ -41,8 +41,8 @@ public class Calc extends HttpServlet {
 			double radius_try;
 			double height_try;
 			try {
-				radius_try=Double.parseDouble(radius_calc);
-				height_try=Double.parseDouble(height_calc);
+				radius_try=Double.valueOf(radius_calc);//Double.parseDouble(radius_calc);
+				height_try=Double.valueOf(height_calc);
 			} catch (NumberFormatException e) {
 				radius_try=0;
 				height_try=0;
