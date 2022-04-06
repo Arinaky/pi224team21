@@ -38,11 +38,11 @@ public class Calc extends HttpServlet {
 			
 			request.setAttribute("radius", radius_calc);
 			request.setAttribute("height", height_calc);
-			double radius_try;
-			double height_try;
+			int radius_try = 3;
+			int height_try = 5;
 			try {
-				radius_try=Double.valueOf(radius_calc);//Double.parseDouble(radius_calc);
-				height_try=Double.valueOf(height_calc);
+				radius_try= Integer.parseInt(radius_calc);
+				height_try= Integer.parseInt(radius_calc);
 			} catch (NumberFormatException e) {
 				radius_try=0;
 				height_try=0;
