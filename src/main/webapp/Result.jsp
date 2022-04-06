@@ -12,5 +12,6 @@
 	<p>Радиус: ${radius}</p>
 	<p>Высота: ${height}</p>
 	<p>Объём: ${result}</p>
+	<p>${3+4}</p>
 </body>
 </html>
