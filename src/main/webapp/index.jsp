@@ -18,6 +18,5 @@
 		<br>
 		<input type="submit" name="sign" value="Calculate">
 	</form>
-	<p>${3+4}</p>
 </body>
 </html>
