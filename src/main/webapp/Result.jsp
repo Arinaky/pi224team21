@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8" isELIgnored="false"%>
 <!DOCTYPE html lang="ru">
 <html>
 <head>
@@ -12,6 +12,5 @@
 	<p>Радиус: ${radius}</p>
 	<p>Высота: ${height}</p>
 	<p>Объём: ${result}</p>
-	<p>${3+4}</p>
 </body>
 </html>
