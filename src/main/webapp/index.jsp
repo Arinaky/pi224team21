@@ -5,7 +5,7 @@
 	<title>Калькулятор - объём конуса</title>
 </head>
 <body>
-	<h1>Калькулятор = объем конуса</h1>
+	<h1>Калькулятор = объем конуса.</h1>
 	<h2><em>Разработано DreamTeam</em></h2>
 	<form action="/WEB-INF/classes/webapp/Calc" method="post">
 		<label for="radius">Радиус: </label>
