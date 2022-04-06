@@ -10,13 +10,13 @@
 	<form action="${pageContext.request.contextPath}/Calc" method="post">
 		<label for="radius">Радиус: </label>
 		<br>
-		<input type="text" naame="radius" id="radius" value="${radius}">
+		<input type="text" name="radius" id="radius" value="${radius}">
 		<br>
 		<label for="height">Высота: </label>
 		<br>
-		<input type="text" naame="height" id="height" value="${height}">
+		<input type="text" name="height" id="height" value="${height}">
 		<br>
-		<input type="submit" naame="sign" value="Calculate">
+		<input type="submit" name="sign" value="Calculate">
 	</form>
 </body>
 </html>
