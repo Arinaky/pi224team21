@@ -41,13 +41,13 @@ public class Calc extends HttpServlet {
 			int radius_try = 3;
 			int height_try = 5;
 			try {
-				radius_try= Integer.parseInt(radius_calc);
-				height_try= Integer.parseInt(radius_calc);
+				radius_try= Integer.valueOf(radius_calc);
+				height_try= Integer.valueOf(radius_calc);
 			} catch (NumberFormatException e) {
 				radius_try=0;
 				height_try=0;
 			}
-			result=1/3*Math.PI*Math.pow(radius_try, 2)*height_try;
+			result = 1/3*Math.PI*Math.pow(radius_try, 2)*height_try;
 			request.setAttribute("result", result);
 		}
 	}
