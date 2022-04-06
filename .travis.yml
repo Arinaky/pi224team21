@@ -1,0 +1,6 @@
+language: java
+before_script: 
+- echo "Start"
+script:
+- mvn clean package
+
